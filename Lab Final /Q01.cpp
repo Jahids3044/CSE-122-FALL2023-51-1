@@ -59,22 +59,5 @@ int main()
 
 
     ronaldo++;
-
-
-    cout<<"Total member for Ronaldo  : ";
-    ronaldo.getData();
-    cout<<"Total member for Fernandes: ";
-    fernandes.getData();
-
-
-    cout<<"Ans: ";
-    if (ronaldo == fernandes)
-    {
-        cout << "Total Member is Equal"<<endl;
-    }
-    else
-    {
-        cout << "Total Member is not Equal"<<endl;
-    }
     return 0;
 }
